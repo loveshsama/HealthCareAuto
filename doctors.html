@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Doctors</title>
+	<meta charset="utf-8">
+  	<meta name="viewport" content="width=device-width,intial-scale=1">
+  	<link rel="stylesheet" type="text/css" href="doctors.css">
+</head>
+<body>
+<div class="topnav">
+		<a href="#hca">HCA</a>
+		<a href="newuser.jsp" style="float:right;">AddUser</a>
+		<a href="#logout" style="float: right;">Logout</a>
+		<a href="#" style="float: right;">Hello</a>
+</div>
+<div class="row">
+<div class="leftcolumn">
+		<a href="dash.jsp"><h4>Dashboard</h4></a><br><br><br>
+		<a href="user.jsp"><h4>Users</h4></a><br><br>
+		<a href="hospital.jsp"><h4>Hospital</h4></a><br><br><br>
+		<a href="doctor.jsp"><h4>Doctors</h4></a><br><br><br>
+		<a href="#"><h4>Diseases</h4></a>
+	<br><br><br><br><br><br><br><br><br>
+</div>
+<div id="rightcolumn">
+<div id="formdiv">
+	<form>
+	<caption><h2 align="center">Doctors Registration Form</h2></caption><br>
+	<label class="lb"><b>Doctor ID</b></label><br>
+		<input class="inp" type="text" name="did" required><br><br>
+	<label class="lb"><b>Doctors Name</b></label><br>
+		<input class="inp"type="text" placeholder="Enter name" name="uname" required><br><br>
+		<label class="lb"><b>Age</b></label><br>
+		<input placeholder="Enter age" class="inp" type="number" name="age" required><br><br>
+		<label class="lb"><b>Specialization</b></label><br>
+		<input class="inp" type="text" placeholder="Enter Specialization" name="Specialization" required><br><br>
+		<label class="lb"><b>Degrees</b></label><br>
+		<input class="inp" type="text" name="Degrees" placeholder="Enter Degrees" required><br><br>
+		<label class="lb"><b>Experience</b></label><br>
+		<input class="inp" type="number" name="Experience" placeholder="Enter Experience" required><br><br>
+		<label class="lb"><b>Hospital</b></label><br>
+		<select class="inp" name="hospital" required>
+			<option>QRG</option>
+			<option>Sarvodhya</option>
+			<option>Metro</option>
+		</select><br><br>
+		<button id="sub" style="text-align: center;width: 98%;margin-left: 1%;margin-top: 1%; height: 50px;"><b>Submit</b></button>
+	</form>
+</div>
+</div>
+</div><br><br><br><br>
+<div class="footer">
+	<p>&copy Lovesh and Harshit 2018</p>
+</div>
+</body>
+</html>

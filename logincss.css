@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: #e6e6e6;
+}
+#user-login{
+    display: block;
+    max-width: 960px;
+    height: 760px;
+    margin: 0% auto;
+    padding: 2%;
+    background: #fff;
+}
+#user-login form{
+    margin: 100px auto;
+    padding: 10% 5% 2% 3%;
+    width: 50%;
+    border: 2px solid black;
+}
+#user-login label{
+    display: block;
+    font-size: 1.2em;
+    font-weight: bold;
+    padding: 0.5%;
+    line-height: 1.2em;
+    letter-spacing: 0.1em;
+    margin: 0.5%;
+}
+#user-login input{
+    display: block;
+    width: 90%;
+    padding: 8px 10px;
+    margin: 0.5%;
+}
+#user-login input[type="email"]{
+    background: url("images/inputs.png") no-repeat;
+    background-position: 7px -26px;
+    background-color: #f9f3f3;
+    border-radius: 7px;
+    padding-left: 40px;
+    border: none;
+}
+#user-login input[type="password"]{
+    padding-left: 40px;
+    border-radius: 7px;
+    border: none;
+    background: #f9f3f3;
+}
+#user-login input[type="email"]:valid{
+    background-position: 7px 6px;
+}
+#user-login button{
+    display: block;
+    width: 95%;
+    margin: 2% 0.5% 0.5% 0.5%;
+    padding: 10px 10px;
+    background: #4CAF50;
+    color: white;
+    font-size: 1.2em;
+    cursor: pointer; 
+}
+#user-login button:hover{
+    opacity: 0.7;
+}
+#img{
+    text-align: center;
+}
+#img img{
+    width: 40%;
+    height: 40%;
+    border-radius: 50%;
+    margin: 0 auto;
+}

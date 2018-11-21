@@ -1,0 +1,8 @@
+<web-app>
+	<display-name>HCA</display-name>
+	<welcome-file-list>
+		<welcome-file>welcome.html</welcome-file>
+		<welcome-file>welcome.htm</welcome-file>
+		<welcome-file>welcome.jsp</welcome-file>
+	</welcome-file-list>
+</web-app>
